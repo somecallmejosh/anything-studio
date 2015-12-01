@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
   <meta charset="UTF-8">
   <title>Anything Studio</title>
@@ -7,6 +7,38 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<h1>Anything Studio</h1>
+<ng-include src=" 'includes/banner.html' "></ng-include>
+<blocks cols="4">
+    <div><img src="images/104.jpg" alt=""></div>
+    <div><img src="images/105.jpg" alt=""></div>
+    <div><img src="images/13.jpg" alt=""></div>
+    <div><img src="images/14.jpg" alt=""></div>
+    <div><img src="images/17.jpg" alt=""></div>
+    <div><img src="images/18.jpg" alt=""></div>
+    <div><img src="images/27.jpg" alt=""></div>
+    <div><img src="images/31.jpg" alt=""></div>
+    <div><img src="images/33.jpg" alt=""></div>
+</blocks>
+<footer>
+  <span class="btn-group">
+    <button type="black" outline>Section One</button>
+    <button type="black" outline>Section Two</button>
+    <button type="black" outline>Section Three</button>
+  </span>
+  <div>
+    <p class="lead">Section One Container</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tenetur, quas sequi ea qui repellendus similique quisquam, quibusdam optio eum quia eius fugit nemo debitis adipisci, incidunt beatae reiciendis architecto.</p>
+  </div>
+  <div>
+    <p class="lead">Section Two Container</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tenetur, quas sequi ea qui repellendus similique quisquam, quibusdam optio eum quia eius fugit nemo debitis adipisci, incidunt beatae reiciendis architecto.</p>
+  </div>
+  <div>
+    <p class="lead">Section Three Container</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tenetur, quas sequi ea qui repellendus similique quisquam, quibusdam optio eum quia eius fugit nemo debitis adipisci, incidunt beatae reiciendis architecto.</p>
+  </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
